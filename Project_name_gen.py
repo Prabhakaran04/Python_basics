@@ -28,10 +28,6 @@ elif First_title == "Sign":
 elif First_title == "Voice":
     print('Congrats, Your project name is: ',
           First_title + Middle_title[3] + last_title)
-#
-"""
- if your input doesn't match with tha provided options 
- this will get executed
-"""
-print('Invalid Input')
-print(this)
+# If the selected option is Invalid
+else:
+    print('Invalid Input')
